@@ -38,3 +38,4 @@ print(f'link to job: {vacancies['Link to Job'][index]}')
 answer = input("do you need description? y/n: ")
 if(answer=="y"):
     print(f'link to job: {vacancies['Description'][index]}')
+input("to quit write anything ")

@@ -13,15 +13,14 @@ def read_text_from_image(path='datasets/CVs/Maksym-TautkevychiusCV-AI.pdf') -> s
     for image in images:
         text += pt.image_to_string(image, config=myconfig)
     clean_text = process_data(text)
+    clean_text=[clean_text] 
     return clean_text
 
 def process_data(text) -> str:
-    
     clean_text = re.sub(r"[;)-/,.!@#$%^&*(\\]", "", text)
     return clean_text
 
 def convert_pdf(path):
-
     images = pdf2image.convert_from_path(path)
     return images
 

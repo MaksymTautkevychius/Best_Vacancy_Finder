@@ -1,6 +1,6 @@
 # Best Vacancy Finder 
 The program is capable to check the best suitable role based on your resume (CV.pdf file) using TF-IDF and Cosine similarity. 
-The dataset for testing purposes was created from Keggle open vacancies and AI-created.
+The dataset for testing purposes was created from Kaggle open vacancies and AI-created.
 ## How to use 
 Find the path to your pdf file and input it into the console
 ## Details

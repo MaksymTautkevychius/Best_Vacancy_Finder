@@ -5,6 +5,7 @@ The dataset for testing purposes was created from Keggle open vacancies and AI-c
 Find the path to your pdf file and input it into the console
 ## Details
 In order to use the code as a developer you need to download  [Tesseract-OCR](https://github.com/tesseract-ocr/tesseract?tab=readme-ov-file#tesseract-ocr) and  Python 3.12.0 or higher.
-
+##Libraries, Engines used
+pandas,numpy,pdf2image, tesseract-OCR engine, sklearn
 
 
